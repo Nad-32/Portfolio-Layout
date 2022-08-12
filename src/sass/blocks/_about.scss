@@ -37,7 +37,7 @@
 	&__skills {
 		display: grid;
 		grid-template: repeat(2, minmax(115px, auto)) / repeat(2, 260px);
-		grid-auto-rows: minmax(115px, auto); //на тот случай, если секция будет расти в низ при добавлении новых элементов
+		// grid-auto-rows: minmax(115px, auto); на тот случай, если секция будет расти в низ при добавлении новых элементов
 		column-gap: 50px;
 		row-gap: 20px;
 		&-item {
